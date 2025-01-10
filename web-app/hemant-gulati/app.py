@@ -13,9 +13,9 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # Suppress TensorFlow logs
 import pandas as pd
 
 # Paths to the model, scaler, and label encoder
-MODEL_PATH = "../../web-app/hemant-gulati/tuned_model.keras"
-SCALER_PATH = "../../web-app/hemant-gulati/scaler.pkl"
-LABEL_ENCODER_PATH = "../../web-app/hemant-gulati/label_encoder.pkl"
+MODEL_PATH = "web-app/hemant-gulati/tuned_model.keras"
+SCALER_PATH = "web-app/hemant-gulati/scaler.pkl"
+LABEL_ENCODER_PATH = "web-app/hemant-gulati/label_encoder.pkl"
 
 # Load the saved model, scaler, and label encoder
 try:
