@@ -11,6 +11,3 @@ __pycache__
 Data/
 
 venv/
-
-*.keras
-*.h5
